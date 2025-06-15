@@ -1,0 +1,59 @@
+// Binary Search Tree Obat
+digraph {
+	rankdir=TB
+	mebendazole [label="Mebendazole\n(Data: 9)"]
+	flixotide [label="Flixotide\n(Data: 4)"]
+	captopril [label="Captopril\n(Data: 6)"]
+	actifed [label="Actifed\n(Data: 10)"]
+	amlodipine [label="Amlodipine\n(Data: 9)"]
+	albendazole [label="Albendazole\n(Data: 10)"]
+	amlodipine -> albendazole
+	antasida [label="Antasida\n(Data: 4)"]
+	bodrex_flu [label="Bodrex Flu\n(Data: 4)"]
+	atorvastatin [label="Atorvastatin\n(Data: 2)"]
+	bodrex_flu -> atorvastatin
+	antasida -> bodrex_flu
+	amlodipine -> antasida
+	actifed -> amlodipine
+	captopril -> actifed
+	decolgen [label="Decolgen\n(Data: 7)"]
+	captopril -> decolgen
+	flixotide -> captopril
+	glimepiride [label="Glimepiride\n(Data: 10)"]
+	ibuprofen [label="Ibuprofen\n(Data: 9)"]
+	insulin [label="Insulin\n(Data: 6)"]
+	lovastatin [label="Lovastatin\n(Data: 4)"]
+	insulin -> lovastatin
+	ibuprofen -> insulin
+	glimepiride -> ibuprofen
+	flixotide -> glimepiride
+	mebendazole -> flixotide
+	sumatriptan [label="Sumatriptan\n(Data: 13)"]
+	salbutamol [label="Salbutamol\n(Data: 11)"]
+	omeprazole [label="Omeprazole\n(Data: 4)"]
+	obh_combi [label="Obh Combi\n(Data: 3)"]
+	metformin [label="Metformin\n(Data: 4)"]
+	obh_combi -> metformin
+	omeprazole -> obh_combi
+	paracetamol [label="Paracetamol\n(Data: 16)"]
+	ranitidine [label="Ranitidine\n(Data: 8)"]
+	paracetamol -> ranitidine
+	omeprazole -> paracetamol
+	salbutamol -> omeprazole
+	siladex [label="Siladex\n(Data: 6)"]
+	sanmol [label="Sanmol\n(Data: 6)"]
+	siladex -> sanmol
+	simvastatin [label="Simvastatin\n(Data: 6)"]
+	siladex -> simvastatin
+	salbutamol -> siladex
+	sumatriptan -> salbutamol
+	vermox [label="Vermox\n(Data: 5)"]
+	ventolin [label="Ventolin\n(Data: 7)"]
+	valsartan [label="Valsartan\n(Data: 6)"]
+	ventolin -> valsartan
+	vermox -> ventolin
+	woods_expectorant [label="Woods Expectorant\n(Data: 11)"]
+	vermox -> woods_expectorant
+	sumatriptan -> vermox
+	mebendazole -> sumatriptan
+}
